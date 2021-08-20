@@ -1,0 +1,16 @@
+.btn-info:hover{
+    background-color:coral;
+}
+canvas{
+    animation-name:eggsample;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes eggsample{
+    from{
+        box-shadow:hotpink 1px 1px 38px;
+    }
+    to{
+        box-shadow:lightseagreen 1px 1px 38px;
+    }
+}
